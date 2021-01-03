@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.formu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 70px;
+  cursor: pointer;
+  margin: 2% 10%;
+}
+
+.formu ul {
+  margin-left: 650px;
+}
+.formu ul li {
+  height: 60px;
+  padding: 12px;
+  list-style: none;
+  display: inline;
+}
+ul li a {
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+.formu li a:hover {
+  color: #00b39b;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(50%, 50%);
+
+  color: blanchedalmond;
+  font-size: 70px;
+}
+p {
+  position: absolute;
+  top: 30%;
+  left: -30%;
+  transform: translate(50%, 50%);
+
+  color: blanchedalmond;
+  font-size: 30px;
+}
+
+.btn {
+  border: 1px solid rgb(250, 249, 249);
+  padding: 20px 04px;
+  color: rgb(252, 244, 244);
+  text-decoration: none;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(50%, 50%);
+  padding-left: 100px;
+}
+#read {
+  position: absolute;
+  top: 90%;
+  left: -30%;
+  transform: translate(50%, 50%);
+  color: #fff;
+  font-size: 30px;
+}

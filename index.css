@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 70px;
+  cursor: pointer;
+  margin: 2% 10%;
+}
+
+.hea div {
+  display: flex;
+}
+.hea div ul li {
+  height: 60px;
+  padding: 12px;
+  list-style: none;
+  display: inline;
+}
+ul li a {
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+.hea li a:hover {
+  color: #00b39b;
+}
+.logo-docplanner {
+  background: none;
+  width: 268px;
+  height: 80px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/5390006/pexels-photo-5390006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(50%, 50%);
+}
+.title h1 {
+  color: #fff;
+  font-size: 70px;
+}
+.button {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(50%, 50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
